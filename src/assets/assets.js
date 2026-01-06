@@ -6,7 +6,7 @@ import star_icon from './star_icon.svg'
 import left_arrow from './left_arrow.svg'
 import right_arrow from './right_arrow.svg'
 import header_img from './header_img.png'
-// import brand_img from './brand_img.png'
+import brand_img from './brand_img.png'
 import collection_image_1 from './collection_image_1.jpg'
 import collection_image_2 from './collection_image_2.jpg'
 import collection_image_3 from './collection_image_3.jpg'
@@ -28,7 +28,7 @@ export const assets = {
     menu_icon,
     star_icon,
     header_img,
-    // brand_img,
+    brand_img,
     collection_image_1,
     collection_image_2,
     collection_image_3,
