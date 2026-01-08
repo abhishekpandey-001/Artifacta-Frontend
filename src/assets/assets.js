@@ -46,7 +46,7 @@ export const assets = {
 export const projectsData = [
     {
       title: "Earthen Grace",
-      description: "Handcrafted Pottery | Clay & Terracotta",
+      description: "Handcrafted Pottery",
       image: collection_image_1
     },
 
@@ -117,19 +117,19 @@ export const projectsData = [
         text: "The craftsmanship and detailing are exceptional. Artifacta pieces instantly elevate any space without feeling overdone."
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
+        name: "Rohit Mehta",
+        title: "Architect",
         image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
+        alt: "Portrait of Rohit Mehta",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "very artifact feels intentional and timeless. Perfect balance between tradition and modern design."
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
+        name: "Kavya Iyer",
+        title: "Homeowner",
         image: profile_img_3,
-        alt: "Portrait of James Washington",
+        alt: "Portrait of Kavya Iyer",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Artifacta helped me find décor that actually feels personal, not mass-produced."
     }
 ];
