@@ -122,7 +122,7 @@ export const projectsData = [
         image: profile_img_2,
         alt: "Portrait of Rohit Mehta",
         rating: 4,
-        text: "very artifact feels intentional and timeless. Perfect balance between tradition and modern design."
+        text: "Every artifact feels intentional and timeless. Perfect balance between tradition and modern design."
     },
     {
         name: "Kavya Iyer",

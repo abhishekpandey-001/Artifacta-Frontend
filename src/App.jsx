@@ -1,6 +1,7 @@
 import About from './components/About'
 import Collections from './components/Collections'
 import Header from './components/Header'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header/>
       <About/>
       <Collections/>
+      <Testimonials/>
     </div>
   )
 }
