@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { assets, projectsData } from '../assets/assets'
+import { motion } from 'framer-motion'
 
 const Collections = () => {
 
@@ -33,7 +34,12 @@ const Collections = () => {
     }
 
     return (
-        <div className='container mx-auto py-4 pt-20 md:px-20 lg:px-32 my-20 w-full overflow-hidden' id='Projects'>
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className='container mx-auto py-4 pt-20 md:px-20 lg:px-32 my-20 w-full overflow-hidden' id='Projects'>
             <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Featured <span className='underline underline-offset-4 decoration-1 under font-light'>Collections</span></h1>
             <p className='text-center text-gray-500 mb-8 max-w-80 mx-auto'>Curated Objects, Crafted Stories—Explore Our Collection</p>
 
@@ -75,7 +81,7 @@ const Collections = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
