@@ -53,13 +53,13 @@ export const projectsData = [
     {
       title: "Metal Muse",
       description: "Brass & Copper Artifacts",
-      image: collection_image_2
+      image: collection_image_3
     },
 
     {
       title: "Woodland Form",
       description: "Carved Wooden Décor",
-      image: collection_image_3
+      image: collection_image_2
     },
 
     {
