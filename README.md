@@ -1,16 +1,83 @@
-# React + Vite
+# Landing Page Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with React and Vite, featuring smooth animations and a premium design aesthetic.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully responsive layout that looks great on all devices, from mobile to desktop.
+- **Modern UI/UX**: Premium aesthetic with tailored color palettes and typography.
+- **Smooth Animations**: Interactive elements and transitions powered by Framer Motion.
+- **Toast Notifications**: User feedback via React Toastify.
+- **Component-Based Architecture**: Modular and reusable React components.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **[React](https://react.dev/)**: JavaScript library for building user interfaces.
+- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling.
+- **[TailwindCSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
+- **[Framer Motion](https://www.framer.com/motion/)**: A production-ready motion library for React.
+- **[React Toastify](https://fkhadra.github.io/react-toastify/)**: React notifications made easy.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+artifacta-frontend/
+├── src/
+│   ├── assets/          # Static assets (images, icons)
+│   ├── components/      # Reusable React components
+│   │   ├── About.jsx
+│   │   ├── Collections.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Testimonials.jsx
+│   ├── App.jsx          # Main application component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles and Tailwind directives
+├── public/              # Public static files
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
+```
+
+## 🏁 Getting Started
+
+Follow these steps to get the project running locally.
+
+### Prerequisites
+
+Ensure you have Node.js installed on your machine.
+
+### Installation
+
+1.  **Clone the repository** (if applicable) or navigate to the project directory:
+    ```bash
+    cd artifacta-frontend
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+### Development
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) (or the URL shown in your terminal) to view the application in your browser.
+
+### Build
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+## 📜 License
+
+This project is licensed under the MIT License.
